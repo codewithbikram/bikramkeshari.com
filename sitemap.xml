@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://bikramkeshari.in/</loc>
+  <lastmod>2018-11-22T06:28:42+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://bikramkeshari.in/login.php</loc>
+  <lastmod>2018-11-22T06:28:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bikramkeshari.in/terms.html</loc>
+  <lastmod>2018-06-24T21:53:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bikramkeshari.in/policy.html</loc>
+  <lastmod>2018-06-24T21:53:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+</urlset>

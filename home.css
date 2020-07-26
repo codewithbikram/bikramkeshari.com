@@ -1,0 +1,260 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+	margin:0;
+	background-color:white;
+	font-size:100%;
+	font-family:Courier New;
+}
+#div0{
+	background-color:black;
+	overflow:hidden;
+}
+#div1{
+	height:100%;
+	background-image:url("header.jpg");
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#div10{
+	position:relative;
+	top:35%;
+	font-size:3em;
+	font-weight:bold;
+	color:black;
+	text-align:center;
+	text-shadow:-5px 3px 8px yellow;	
+}
+#div2{
+	height:50%;
+	min-height:300px;
+	position:relative;
+	border:3px solid #333;
+}
+#div21{
+	top:30%;
+	left:5%;
+	position:absolute;
+	color:#333;
+	font-weight:bold;
+}
+#div2 img{
+	width:20%;
+	height:80%;
+	position:absolute;
+	top:10%;
+	right:5%;
+	border-left:10px solid #333;
+	border-right:10px solid #333;
+}
+#div30{
+	background-color:#555;
+	color:white;
+        display:block;
+	column-count:2;
+	column-gap:20px;
+        position:relative;
+}
+#div30 h3{
+	column-span:all;
+}
+#div31{
+	display:none;
+	overflow-x:auto;
+	background-color:white;
+	color:white;
+        position:relative;
+}
+#div32{
+	display:none;
+	color:#333;
+        position:relative;
+	
+}
+#div33{
+	display:none;
+	font-size:0;
+        position:relative;	
+}
+table,tr,td,th{
+	border:1px solid black;
+	padding:5px;
+}
+table{
+	width:100%;
+	color:white;
+	border-collapse:collapse;
+}
+th{
+	background-color:black;
+}
+td:nth-child(even){
+	background-color:#777;
+}
+td:nth-child(odd){
+	background-color:#444;
+}
+#whatsapp{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	opacity:0.5;
+        top:0;
+        left:0;
+}	
+#div4{
+	width:100%;
+	height:50%;
+	min-height:360px;
+	position:relative;
+	box-sizing:border-box;
+	border:5px solid black;
+}
+#div41{
+	position:absolute;
+	top:100px;
+	left:100px;
+	font-weight:bold;
+	color:#333;
+}
+form{
+	width:50%px;
+	position:absolute;
+	right:100px;
+}
+input,textarea{
+	margin-top:10px;
+	width:100%;
+	height:50px;
+	background-color:#333;
+	color:white;
+	border:0;
+	box-sizing:border-box;
+}
+textarea{
+	height:100px;
+}
+input[type=submit]{
+	background-color:black;
+	color:white;
+	cursor:pointer;
+}
+input:focus,textarea:focus{
+	border:3px dashed white;
+}
+::placeholder{
+	color:yellow;
+}
+#div5{
+	height:100%;
+	min-height:500px;
+	position:relative;
+	background-image:url("header.jpg");
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#div50{
+	position:absolute;
+	width:100%;
+	bottom:15%;
+}
+#div50 div{
+	float:left;
+	width:33.33%;
+	text-align:center;
+}
+#div5 a{
+	color:white;
+	text-shadow:3px 3px 8px yellow;
+	text-decoration:none;
+	font-weight:bold;
+}
+#div5 a:hover{
+	text-decoration:underline;
+}
+#gap1{
+	height:60%;
+	background-image:url("gap1.jpg");
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#gap2{
+	height:70%;
+	background-image:url("gap2.jpg");
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#div0 a{
+	float:left;
+	padding:10px;
+	background-color:#000;
+	color:white;
+	font-size:1.5em;
+	font-weight:bold;
+	text-decoration:none;
+}
+#admin{
+	float:right;
+}
+#div0 a:hover{
+	background-color:#aaaaaa;
+}
+h2,h3{
+	margin:0;
+}
+button{
+	width:100%;
+	padding:15px;
+	box-sizing:border-box;
+	font-size:1.5em;
+	font-weight:bold;
+	border:0;
+	border-bottom:1px solid white;
+	color:white;
+	text-align:left;
+	background-color:#333;
+	cursor:pointer;
+}
+button:hover,button:active,#top:hover{
+	background-color:#555;
+}
+#menu{
+	display:none;
+}
+#top{
+width:auto;
+font-size:1em;
+color:white;
+background-color:black;
+display:none;
+position:fixed;
+right:5px;
+bottom:5px;
+border-radius:10px 10px 0 0;
+z-index:2;
+}	
+::-webkit-scrollbar{
+	width:15px;
+}
+::-webkit-scrollbar-button{
+	background-color:red;
+}
+::-webkit-scrollbar-thumb{
+	background-color:blue;
+}
+::-webkit-scrollbar-track{
+	background-color:rgba(100,100,100,0.5);
+}
+
+
+	
